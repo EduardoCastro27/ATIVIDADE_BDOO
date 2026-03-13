@@ -3,3 +3,35 @@ Professor {
  nome: "Carlos Silva"
  areaEspecializacao: "Programação Web"
 }
+
+Curso {
+ id: 101
+ titulo: "Desenvolvimento Web"
+ descricao: "Curso completo de HTML, CSS e JavaScript"
+ professorResponsavel: Carlos Silva
+}
+
+Modulo {
+ titulo: "Introdução ao HTML"
+ ordem: 1
+}
+
+AulaVideo {
+ titulo: "Estrutura básica do HTML"
+ duracao: 15 minutos
+ resolucao: "1080p"
+}
+
+Aluno {
+ id: 2001
+ nome: "Eduardo Castro"
+ email: "edu@email.com"
+ cursosInscritos: [Curso 101]
+}
+
+Progresso {
+ curso: "Desenvolvimento Web"
+ percentualConclusao: 35%
+ aulasAssistidas: 7
+ atividadesConcluidas: 2
+}
