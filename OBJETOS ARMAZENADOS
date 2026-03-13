@@ -1,0 +1,5 @@
+Professor {
+ id: 1
+ nome: "Carlos Silva"
+ areaEspecializacao: "Programação Web"
+}
